@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+build
+.git
+.gitignore
+README.md
+# Add any other files or directories that should not be included
+# .env files if any (though create-react-app uses REACT_APP_... env vars at build time)

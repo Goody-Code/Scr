@@ -1,0 +1,63 @@
+/* index.css - Add global styles here */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef; /* A light grey background for the whole page */
+  color: #333; /* Default text color */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* You can add more global styles or reset rules here if needed */
+
+/* RTL STYLES */
+[dir="rtl"] body {
+  /* text-align: right; */ /* This might be too broad, handled by components or specific selectors if needed */
+  /* For example, form labels might need text-align: right, but not all body text. */
+}
+
+/* Basic nav styling for RTL - adjust as per actual nav structure */
+/* The provided App.css already handles flex for nav, so simple text-align might be enough if needed */
+[dir="rtl"] header {
+  /* If header itself needs direction change */
+}
+
+[dir="rtl"] nav ul {
+  /* padding-right: 0; */ /* Reset default padding if browser adds it for RTL ul */
+  /* Flexbox in App.css should handle item order mostly. */
+  /* Individual list items might need specific alignment if flex order isn't enough. */
+}
+
+[dir="rtl"] .lang-switcher {
+  /* Ensure buttons are laid out correctly, e.g., if they were floated */
+}
+
+[dir="rtl"] .container {
+  /* Any specific container adjustments for RTL */
+}
+
+[dir="rtl"] footer {
+  /* Footer text alignment if necessary */
+}
+
+/* More specific RTL adjustments should be made component by component or with more specific selectors */
+/* For instance, form elements might need margin adjustments in RTL */
+[dir="rtl"] form div {
+  /* Example: Adjust margins if labels and inputs are side-by-side */
+  /* margin-left: 0; */
+  /* margin-right: 10px; */ /* If there was a margin-left for LTR */
+}
+
+[dir="rtl"] label {
+    /* If labels need to be explicitly right-aligned within their containers */
+    /* text-align: right; */
+    /* display: inline-block; */ /* or block, depending on layout */
+    /* width: 100%; */ /* if they take full width above input */
+}
