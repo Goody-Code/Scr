@@ -1,0 +1,12 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+tests
+jest.config.js
+.git
+.gitignore
+README.md
+# Add any other files or directories that should not be included in the Docker image
+# For example, if you have local env files:
+# .env
